@@ -26,6 +26,12 @@ git config --global user.email "email"
 	#输入yes即可
 	```
 
+***Git临时代理***
+```bash
+export http_proxy=http://proyAddress:port
+export https_proxy=http://proxyAddress:port
+```
+
 ***本地初始化Git***
 1. 初始化Git
 ```bash
