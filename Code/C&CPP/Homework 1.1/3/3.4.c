@@ -9,8 +9,8 @@ int main(){
     while(i == 1)
     {
         double temp = (left + right) / 2;
-        if(pow(temp,2) > n) right = temp;
-        if(pow(temp,2) < n) left = temp;
+        if(temp * temp > n) right = temp;
+        if(temp * temp < n) left = temp;
         if(fabs(pow(temp,2) - n) <= 0.0000001) i =temp;
     }
     printf("%.4f",i);
