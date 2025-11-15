@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7e4958d1ae6987bc",
+        "id": "49ca8f7e24206968",
         "type": "tabs",
         "children": [
           {
-            "id": "9eacb23dbd63a5e4",
+            "id": "45d5ad56e8463f50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/C&CPP/小贴士/Gcc命令.md",
+                "file": "Computer Science/ArchLinux/Error/无法访问AUR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gcc命令"
+              "title": "无法访问AUR"
             }
           }
         ]
@@ -178,21 +178,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63754b9b6b36c058",
+  "active": "45d5ad56e8463f50",
   "lastOpenFiles": [
-    "Code/C&CPP/Homework 1.1/3/3.5.c~",
-    "Code/C&CPP/Homework 1.1/3/3.5",
-    "Code/C&CPP/Homework 1.1/3/3.5.c",
-    "Code/C&CPP/Homework 1.1/3/3.4.c~",
-    "Code/C&CPP/Homework 1.1/3/3.4",
-    "Code/C&CPP/Homework 1.1/3/3.4.c",
-    "Code/C&CPP/Homework 1.1/3/3.3",
-    "Code/C&CPP/Homework 1.1/3/3.3.c",
-    "Code/C&CPP/Homework 1.1/3/3.2.c~",
-    "Code/C&CPP/Homework 1.1/3/3.2",
-    "Code/C&CPP/Homework 1.1/3/3.2.c",
-    "Computer Science/Git/如何从零同步本地Obsidian至github.md",
+    "Computer Science/ArchLinux/Error/无法访问AUR.md",
+    "Computer Science/ArchLinux/Error",
+    "Computer Science/ArchLinux",
+    "Computer Science/ProgrammingLanguage/Ruby/Ebooks&Notes/Ruby基础教程(第5版) ([日]高桥征义 后藤裕藏) (Z-Library).pdf",
     "Code/C&CPP/小贴士/Gcc命令.md",
+    "Computer Science/ProgrammingLanguage/C&CPP/Ebooks&Notes/C Primer Plus 第6版 中文版 ([美]史蒂芬·普拉达(Stephen Prata)).pdf",
+    "Computer Science/ProgrammingLanguage/C&CPP/Ebooks&Notes",
+    "Computer Science/ProgrammingLanguage/Ruby/Ebooks&Notes",
+    "Computer Science/ProgrammingLanguage/Ruby",
+    "Computer Science/ProgrammingLanguage/C&CPP",
+    "Computer Science/ProgrammingLanguage",
+    "未命名",
+    "Computer Science/Git/如何从零同步本地Obsidian至github.md",
     "未命名.md"
   ]
 }
