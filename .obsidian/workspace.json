@@ -11,14 +11,12 @@
             "id": "45d5ad56e8463f50",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Computer Science/ArchLinux/配置/Lazyvim背景透明.md",
-                "mode": "source",
-                "source": false
+                "file": "Computer Science/ProgrammingLanguage/C&CPP/Ebooks&Notes/C Primer Plus 第6版 中文版 ([美]史蒂芬·普拉达(Stephen Prata)).pdf"
               },
-              "icon": "lucide-file",
-              "title": "Lazyvim背景透明"
+              "icon": "lucide-file-text",
+              "title": "C Primer Plus 第6版 中文版 ([美]史蒂芬·普拉达(Stephen Prata))"
             }
           }
         ]
@@ -178,13 +176,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45d5ad56e8463f50",
+  "active": "cb852608d584821f",
   "lastOpenFiles": [
     "Computer Science/Git/如何从零同步本地Obsidian至github.md",
+    "Computer Science/ArchLinux/Error/无法访问AUR.md",
     "Computer Science/ArchLinux/配置/Lazyvim背景透明.md",
     "Computer Science/ArchLinux/配置",
     "Computer Science/ProgrammingLanguage/Rust",
-    "Computer Science/ArchLinux/Error/无法访问AUR.md",
     "Computer Science/ArchLinux/Error",
     "Computer Science/ArchLinux",
     "Computer Science/ProgrammingLanguage/Ruby/Ebooks&Notes/Ruby基础教程(第5版) ([日]高桥征义 后藤裕藏) (Z-Library).pdf",
