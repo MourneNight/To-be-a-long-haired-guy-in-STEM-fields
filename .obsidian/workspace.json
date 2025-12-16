@@ -174,16 +174,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9b79c97fb966f279",
+  "active": "cb852608d584821f",
   "lastOpenFiles": [
+    "Computer Science/ProgrammingLanguage/Rust",
+    "Computer Science/ProgrammingLanguage/Ruby/NOtes",
+    "Computer Science/ProgrammingLanguage/C&CPP/Notes",
     "Computer Science/ArchLinux/配置/Lazyvim背景透明.md",
     "Math/宋浩/Notes/隐函数求导对数求导.md",
     "未命名.md",
     "Math/宋浩/Notes",
     "Math/宋浩",
     "Math",
-    "Computer Science/ProgrammingLanguage/C&CPP/Ebooks&Notes/C Primer Plus 第6版 中文版 ([美]史蒂芬·普拉达(Stephen Prata)).pdf",
-    "Computer Science/ProgrammingLanguage/C&CPP/Ebooks&Notes/C Primer Plus 笔记.md",
+    "Computer Science/ProgrammingLanguage/C&CPP/Ebooks/C Primer Plus 第6版 中文版 ([美]史蒂芬·普拉达(Stephen Prata)).pdf",
+    "Computer Science/ProgrammingLanguage/C&CPP/Ebooks/C Primer Plus 笔记.md",
     "Computer Science/ArchLinux/配置/使用TLP提高续航能力.md",
     "Computer Science/Git/如何从零同步本地Obsidian至github.md",
     "Computer Science/ArchLinux/未命名/7z命令行.md",
@@ -192,8 +195,6 @@
     "Computer Science/ArchLinux/配置",
     "Computer Science/ProgrammingLanguage/Rust",
     "Computer Science/ArchLinux/Error",
-    "Computer Science/ArchLinux",
-    "Computer Science/ProgrammingLanguage/Ruby/Ebooks&Notes/Ruby基础教程(第5版) ([日]高桥征义 后藤裕藏) (Z-Library).pdf",
     "Code/C&CPP/小贴士/Gcc命令.md"
   ]
 }
