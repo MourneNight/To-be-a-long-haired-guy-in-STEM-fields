@@ -82,6 +82,9 @@
 #### Literal Concatenation
 解释器会自动连接相邻字符串，使用 <u>\</u> 亦会自动连接
 百分号字符串不能是最后一个
+#### Character Literal
+以 ? 后跟一个字符或转义序列为语法，表示单个字符或转义序列（这是旧版用法）
+#### Here Document Literals
 
 
 
