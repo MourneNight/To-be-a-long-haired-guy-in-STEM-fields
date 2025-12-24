@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/ProgrammingLanguage/C&CPP/C_Notes/DP动态规划.md",
+                "file": "Computer Science/ProgrammingLanguage/C&CPP/C++_Notes/DP动态规划.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/ProgrammingLanguage/C&CPP/C_Notes/DFS深度优先搜索.md",
+                "file": "Computer Science/ProgrammingLanguage/C&CPP/C++_Notes/DFS深度优先搜索.md",
                 "mode": "source",
                 "source": false
               },
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "777c195181713107",
@@ -195,10 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0117b63df7dab2b8",
+  "active": "cb852608d584821f",
   "lastOpenFiles": [
-    "Computer Science/ProgrammingLanguage/C&CPP/C_Notes/DP动态规划.md",
-    "Computer Science/ProgrammingLanguage/C&CPP/C_Notes/DFS深度优先搜索.md",
+    "Computer Science/ProgrammingLanguage/C&CPP/C++_Notes/DP动态规划.md",
+    "Computer Science/ProgrammingLanguage/C&CPP/C++_Notes/DFS深度优先搜索.md",
     "Computer Science/ProgrammingLanguage/Ruby/Notes/wiki/Literals.md",
     "Computer Science/ProgrammingLanguage/Ruby/Notes/Ruby in Twenty Minutes.md",
     "Computer Science/ProgrammingLanguage/Ruby/Notes/Error/Pry_less.md",
