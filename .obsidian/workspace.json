@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e0290ba01fb7ab0c",
+        "id": "3b5347b528df0830",
         "type": "tabs",
         "children": [
           {
-            "id": "0e7fda718b3d29a4",
+            "id": "a601841ce8b3fa42",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer-Science/Linux/一些软件使用/Lazyvim快捷键.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lazyvim快捷键"
+              "title": "新标签页"
             }
           }
         ]
@@ -178,17 +174,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e7fda718b3d29a4",
+  "active": "a601841ce8b3fa42",
   "lastOpenFiles": [
-    "Computer-Science/Linux/Document notes.md",
+    "Math/Advanced Mathematics/Document notes.md",
+    "Computer-Science/ProgrammingLanguage/C&CPP/C_Notes/随机数生成.md",
+    "Code/C&CPP/小贴士/Gcc命令.md",
     "Computer-Science/Linux/一些软件使用/Lazyvim快捷键.md",
+    "Computer-Science/Linux/Document notes.md",
     "Computer-Science/Artificial-intelligence/人工智能课程笔记.md",
     "Computer-Science/Introduction to Computer Science/Document notes.md",
-    "Computer-Science/ProgrammingLanguage/C&CPP/C_Notes/随机数生成.md",
     "Computer-Science/Introduction to Computer Science",
     "Computer-Science/ProgrammingLanguage/C&CPP/C++_Notes/DP动态规划.md",
     "Computer-Science/ProgrammingLanguage/C&CPP/C++_Notes/DFS深度优先搜索.md",
-    "Math/Advanced Mathematics/Document notes.md",
     "Math/Advanced Mathematics",
     "Math",
     "Computer-Science/ProgrammingLanguage/Go",
@@ -212,7 +209,6 @@
     "Math/宋浩/Notes/隐函数求导对数求导.md",
     "Computer Science/ProgrammingLanguage/C&CPP/Ebooks/C Primer Plus 笔记.md",
     "Computer Science/ArchLinux/未命名/7z命令行.md",
-    "Computer-Science/Linux/Error/无法访问AUR.md",
-    "Code/C&CPP/小贴士/Gcc命令.md"
+    "Computer-Science/Linux/Error/无法访问AUR.md"
   ]
 }
