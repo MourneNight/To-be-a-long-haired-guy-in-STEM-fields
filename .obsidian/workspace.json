@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer-Science/ProgrammingLanguage/C&CPP/C_Notes/随机数生成.md",
+                "file": "Computer-Science/ProgrammingLanguage/Ruby/Notes/Ruby-Syntax/字面量（Literals）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "随机数生成"
+              "title": "字面量（Literals）"
             }
           }
         ]
@@ -180,6 +180,11 @@
   },
   "active": "46e93ac9521b3932",
   "lastOpenFiles": [
+    "Computer-Science/ProgrammingLanguage/Ruby/Notes/Ruby in Twenty Minutes.md",
+    "Computer-Science/ProgrammingLanguage/Ruby/Notes/Ruby-Syntax/字面量（Literals）.md",
+    "Computer-Science/ProgrammingLanguage/Ruby/Notes/此部分笔记说明.md",
+    "Computer-Science/Markdown语法.md",
+    "Computer-Science/ProgrammingLanguage/C&CPP/C_Notes/随机数生成.md",
     "Computer-Science/Linux/一些软件使用/Lazyvim快捷键.md",
     "Computer-Science/Linux/Error/无法访问AUR.md",
     "Computer-Science/Linux/一些软件使用/7z命令行.md",
@@ -190,12 +195,8 @@
     "Computer-Science/Artificial-intelligence/人工智能课程笔记.md",
     "Computer-Science/Introduction to Computer Science/Document notes.md",
     "Math/Advanced Mathematics/Document notes.md",
-    "Computer-Science/Markdown语法.md",
     "Code/C&CPP/Homework 1.1/8/未命名.md",
-    "Computer-Science/ProgrammingLanguage/Ruby/Notes/Ruby-Syntax/字面量（Literals）.md",
-    "Computer-Science/ProgrammingLanguage/Ruby/Notes/Ruby in Twenty Minutes.md",
     "Computer-Science/未命名",
-    "Computer-Science/ProgrammingLanguage/C&CPP/C_Notes/随机数生成.md",
     "Computer-Science/Introduction to Computer Science",
     "Computer-Science/ProgrammingLanguage/C&CPP/C++_Notes/DP动态规划.md",
     "Computer-Science/ProgrammingLanguage/C&CPP/C++_Notes/DFS深度优先搜索.md",

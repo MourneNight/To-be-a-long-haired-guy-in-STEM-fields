@@ -1,3 +1,4 @@
+
 ## 布尔值与 Nil（Boolen and Nil）
 
 - Ruby 中只有两个假值：**false** 和 **nil**

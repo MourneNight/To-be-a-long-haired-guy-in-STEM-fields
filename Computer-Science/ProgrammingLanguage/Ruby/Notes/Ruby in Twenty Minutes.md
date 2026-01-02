@@ -1,102 +1,92 @@
-## 定义一个方法
-```ruby
-#示例
-def initialize(names = "World")
-    @names = names
-  end
-def say_hi   
-    if @names.nil? 
-      puts "..."
-    elsif @names.respond_to?("each")
-      # @names is a list of some kind, iterate!
-      @names.each do |name|
-        puts "Hello #{name}!"
-      end
-    else
-      puts "Hello #{@names}!"
-    end
-    
-#调用
-say_hi "chris"
-say_hi
-```
-***解释***
-**initialize,say_hi** :  方法名
-**names** ： 参数
-**#{name}** ：是ruby向字符串中插入内容的方式，{}内的内容会转换为字符串，后替换至外面的字符串
-**names = "World"**： 表示未提供则使用默认参数World
 
-## 定义一个类
+#### 方法定义（def）
 ```ruby
-#示例
+def say_hi(names = "World")  # 方法名 say_hi，默认参数 "World"
+  puts "Hello #{names}!"
+end
+```
+
+- `def` 开始方法定义，`end` 结束
+- 参数可设默认值：未传参时使用默认值
+- `#{expr}`：字符串插值，将表达式结果插入字符串
+
+#### 类定义（class）
+```ruby
 class MegaGreeter
-  attr_accessor :names
-  # Create the object
-  def initialize(names = "World")
-    @names = names
+  attr_accessor :names               # 自动生成 names 和 names= 方法
+
+  def initialize(names = "World")    # 构造函数，new 时自动调用
+    @names = names                   # @names 是实例变量
   end
-  # Say hi to everybody
+
   def say_hi
     if @names.nil?
       puts "..."
-    elsif @names.respond_to?("each")
-      # @names is a list of some kind, iterate!
-      @names.each do |name|
-        puts "Hello #{name}!"
-      end
+    elsif @names.respond_to?(:each)
+      @names.each { |name| puts "Hello #{name}!" }
     else
       puts "Hello #{@names}!"
     end
   end
-  # Say bye to everybody
+
   def say_bye
     if @names.nil?
       puts "..."
-    elsif @names.respond_to?("join")
-      # Join the list elements with commas
-      puts "Goodbye #{@names.join(", ")}.  Come back soon!"
+    elsif @names.respond_to?(:join)
+      puts "Goodbye #{@names.join(", ")}. Come back soon!"
     else
-      puts "Goodbye #{@names}.  Come back soon!"
+      puts "Goodbye #{@names}. Come back soon!"
     end
   end
 end
-
-#调用
-greeter = MegaGreeter.new("Pat") #创建对象
-greeter.say_hi
-greeter.say_bye
-#greeter.@name 无法使用，无法直接获取实例变量
-
-#获取Greeter对象的方法
-MegaGreeter.instance_methods #包括祖先类定义的方法
-MegaGreeter.instance_methods(false) #不包括祖先类定义的方法
-
-#使用attr_accessor来查看并改变对象变量
-class Greeter
-	attr_accessor :name
-end
 ```
-***解释***
-**MegaGreeter**：类名
-**initialize**：类的构造方法，使用new创建对象时自动调用，常用于初始化对象属性，设置默认值，关键字传递
-**@name**：实例变量，可供该类中所有方法使用。
-**attr_accessor**：定义了两个新方法，name用于获取值，name=用于设置值
 
-## 循环和迭代
+#### 使用示例
 ```ruby
-@names.each do |name|
+greeter = MegaGreeter.new("Pat")   # 创建对象，调用 initialize
+greeter.say_hi                     # => Hello Pat!
+greeter.say_bye                    # => Goodbye Pat. Come back soon!
+
+greeter.names = ["Alice", "Bob"]   # 使用 attr_accessor 设置
+greeter.say_hi                     # => Hello Alice! / Hello Bob!
+
+greeter.names = nil
+greeter.say_hi                     # => ...
+```
+
+#### 关键概念
+| 概念               | 说明                                      |
+|--------------------|-------------------------------------------|
+| `class`            | 定义类，类名首字母大写                    |
+| `initialize`       | 构造函数，`new` 时自动调用                |
+| `@var`             | 实例变量，属于对象，在类内所有方法可见    |
+| `attr_accessor :var`| 自动生成 getter（var）和 setter（var=）   |
+| `instance_methods` | 查看实例方法                              |
+| `instance_methods(false)` | 只查看本类定义的方法（不含继承）   |
+
+#### 循环与迭代器
+```ruby
+@names.each do |name|    # each 是迭代器方法
   puts "Hello #{name}!"
 end
+
+# 简写形式（推荐）
+@names.each { |name| puts "Hello #{name}!" }
 ```
-***解释***
-**each**：each是一个方法，接受并对列表中每个元素执行该代码块
 
+- `each` 遍历可枚举对象，执行代码块
+- `|name|` 是块参数
 
-### 剧本开篇？机翻
+#### 脚本入口判断（主程序守卫）
 ```ruby
 if __FILE__ == $0
+  # 此代码仅在直接运行本文件时执行
+  greeter = MegaGreeter.new
+  greeter.say_hi
+  greeter.say_bye
+end
 ```
-***解释***
-**__FILE__**：魔法变量，存储当前文件名称
-**$0**：用于启动程序的文件名
-该行代码用于检查“如果这是当前正在使用的主文件”，允许将文件用作库，而不执行其上下文中的代码；但如果文件被用作可执行文件，则执行其代码。
+
+- `__FILE__`：当前文件名
+- `$0`：Ruby 解释器启动时执行的文件名
+- 作用：允许文件既可作为脚本直接运行，又可被 `require` 作为模块引入而不执行主代码
