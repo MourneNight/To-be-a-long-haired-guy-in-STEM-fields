@@ -1,7 +1,26 @@
 ### Boolen and Nil
-**nil**和**false**都表示假值
-**nil**有时表“无”或“未知”，在条件表达式中表示**false**
-**true**表示真值，条件表达式中除**nil**和**false**都表示真值
+
+- Ruby 中只有两个假值：**false** 和 **nil**
+- 所有其他对象（包括 `0`、空字符串 `""`、空数组 `[]` 等）在条件表达式中都视为 **true**
+
+| 值       | 含义                   | 在条件表达式中 |
+| ------- | -------------------- | ------- |
+| `true`  | 真值                   | true    |
+| `false` | 假值                   | false   |
+| `nil`   | 表示“无”或“不存在”          | false   |
+| 其他      | 任何非 false/non-nil 对象 | true    |
+
+**示例**：
+```ruby
+if nil      # => false
+if false    # => false
+if 0        # => true
+if ""       # => true
+if []       # => true
+```
+
+**注意**：`nil` 是对象（`NilClass` 的唯一实例），常用于表示变量未赋值或方法无返回值。
+
 ### Number Literals
 #### Integer Literals
 下划线用于提高数字可读性，可于任意位置添加
