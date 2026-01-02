@@ -95,6 +95,17 @@
 2. 转义的Tab和空格不算缩进
 3. Tab被视为1~8的空格，若要移除的最小缩进数在制表符中间，则不予移除
 Heredoc允许使用插值和转义序列，通过将起始符使用 **单引号** 括起使其遭到禁用
+使用引号则会使除了引号和换行符外的任何字符被视为标识符
+**调用Heredoc上的方法** ，请将其放在标识符后
+同时打开多个Heredoc是被允许的，以下为例子：
+```ruby
+puts(<<-ONE, <<-TWO)
+content for heredoc one
+ONE
+content for heredoc two
+TWO
+```
+#### Symbol Literals
 
 
 
