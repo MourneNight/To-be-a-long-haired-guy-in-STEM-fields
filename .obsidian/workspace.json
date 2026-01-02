@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer-Science/ProgrammingLanguage/Ruby/Notes/Ruby-Syntax/Literals.md",
+                "file": "Computer-Science/ProgrammingLanguage/Ruby/Notes/Ruby-Syntax/字面量（Literals）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Literals"
+              "title": "字面量（Literals）"
             }
           }
         ],
@@ -195,8 +195,9 @@
   },
   "active": "c732f49b13fdfa32",
   "lastOpenFiles": [
+    "Computer-Science/ProgrammingLanguage/Ruby/Notes/Ruby in Twenty Minutes.md",
     "Computer-Science/Markdown语法.md",
-    "Computer-Science/ProgrammingLanguage/Ruby/Notes/Ruby-Syntax/Literals.md",
+    "Computer-Science/ProgrammingLanguage/Ruby/Notes/Ruby-Syntax/字面量（Literals）.md",
     "Computer-Science/未命名",
     "Math/Advanced Mathematics/Document notes.md",
     "Computer-Science/ProgrammingLanguage/C&CPP/C_Notes/随机数生成.md",
@@ -211,7 +212,6 @@
     "Math/Advanced Mathematics",
     "Math",
     "Computer-Science/ProgrammingLanguage/Go",
-    "Computer-Science/ProgrammingLanguage/Ruby/Notes/Ruby in Twenty Minutes.md",
     "Code/Test/rand_test",
     "Code/Test/rand_test.c",
     "Computer.md",
